@@ -58,6 +58,6 @@ const game = (UserChoice) => {
 items.forEach((item) => {
   item.addEventListener("click", () => {
     const UserChoice = item.getAttribute("id");
-    game(UserWin);
+    game(UserChoice);
   });
 });
